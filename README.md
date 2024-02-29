@@ -1,6 +1,6 @@
 # capacitor-call-detector
 
-Detect call statuis
+Detect call status. Now supports only ios. Documentation will be added later
 
 ## Install
 
@@ -13,7 +13,7 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`addListener(...)`](#echo)
 
 </docgen-index>
 

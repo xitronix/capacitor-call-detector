@@ -1,8 +1,9 @@
 #import <Foundation/Foundation.h>
 #import <Capacitor/Capacitor.h>
+#import <CallKit/CallKit.h>
 
-// Define the plugin using the CAP_PLUGIN Macro, and
-// each method the plugin supports using the CAP_PLUGIN_METHOD macro.
-CAP_PLUGIN(CallDetectorPlugin, "CallDetector",
-           CAP_PLUGIN_METHOD(echo, CAPPluginReturnPromise);
+CAP_PLUGIN(CallDetector, "CallDetector",
+              CAP_PLUGIN_METHOD(startCallDetector, CAPPluginReturnPromise);
+              CAP_PLUGIN_METHOD(stopCallDetector, CAPPluginReturnPromise);
+              CAP_PLUGIN_METHOD(echo, CAPPluginReturnPromise);
 )

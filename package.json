@@ -1,7 +1,7 @@
 {
   "name": "capacitor-call-detector",
-  "version": "0.0.1",
-  "description": "Detect call statuis",
+  "version": "0.0.2",
+  "description": "Detect call status",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
