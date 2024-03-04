@@ -13,7 +13,9 @@ npx cap sync
 
 <docgen-index>
 
-* [`addListener(...)`](#echo)
+* [`echo(...)`](#echo)
+* [`startObserver()`](#startobserver)
+* [`stopObserver()`](#stopobserver)
 
 </docgen-index>
 
@@ -31,6 +33,24 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 | **`options`** | <code>{ value: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### startObserver()
+
+```typescript
+startObserver() => Promise<void>
+```
+
+--------------------
+
+
+### stopObserver()
+
+```typescript
+stopObserver() => Promise<void>
+```
 
 --------------------
 

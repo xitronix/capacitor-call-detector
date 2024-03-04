@@ -19,12 +19,12 @@ public class CallDetector: CAPPlugin, CXCallObserverDelegate {
         ])
     }
 
-    @objc func startCallDetector(_ call: CAPPluginCall) {
+    @objc func startObserver(_ call: CAPPluginCall) {
         callObserver.setDelegate(self, queue: nil)
         call.resolve()
     }
 
-    @objc func stopCallDetector(_ call: CAPPluginCall) {
+    @objc func stopObserver(_ call: CAPPluginCall) {
         callObserver.setDelegate(nil, queue: nil)
         call.resolve()
     }
